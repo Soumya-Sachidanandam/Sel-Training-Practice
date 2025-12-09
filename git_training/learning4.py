@@ -1,3 +1,4 @@
 print("Hi!hello")
 print("Good Morning")
 print("Good afternoon")
+print("Have a great day")
