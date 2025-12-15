@@ -275,19 +275,20 @@ paramaters passing is not allowed.There is someother way
 ##############################################################################################################################
 
 
-class TestSample:
-
-    def __init__(self):
-        pass
-
-    def test_login(self):
-        print("login executing")
-
-    def test_signup(self):
-        print("signup executing")
-
-    def test_logout(self):
-        print("logout executing")
+# class TestSample:
+#
+#     def __init__(self):
+#         pass
+#
+#     def test_login(self):
+#         print("login executing")
+#
+#     def test_signup(self):
+#         print("signup executing")
+#
+#     def test_logout(self):
+#         print("logout executing")
+###################################################################################################################################
 
 
 
