@@ -12,19 +12,19 @@ opts.add_experimental_option("detach", True)
 driver = webdriver.Chrome(opts)
 ac_obj = ActionChains(driver)
 
-driver.get('https://www.myntra.com/')
-time.sleep(2)
-
-navigation=driver.find_elements("xpath","//a[@class='desktop-main']")
-
-##-------Solution-1------#######
-
+# driver.get('https://www.myntra.com/')
+# time.sleep(2)
+#
+# navigation=driver.find_elements("xpath","//a[@class='desktop-main']")
+#
+# #-------Solution-1------#######
+#
 # for navi in navigation[:-1]:
 #
 #     ac_obj.move_to_element(navi).perform()
 #     time.sleep(2)
 
-##----Solution-2------#####
+#----Solution-2------#####
 
 
 # for navi in range(0,len(navigation)-1):
